@@ -1,0 +1,37 @@
+{
+  "name": "ruleset",
+  "description": "Customization of the analyzer to exclude errors and warning",
+  "rules": [
+    {
+
+      "id": "AA0218",
+      "action": "None",
+      "justification": "Disable tooltip warning on pages"
+    },
+    {
+
+      "id": "AA0205",
+      "action": "None",
+      "justification": "Disable warning Use of unassigned variable"
+    },
+    {
+      "id": "AA0072",
+      "action": "None",
+      "justification": "Disable warning of variables names"
+    },
+    {
+      "id": "AA0206",
+      "action": "None",
+      "justification": "Disable warning The variable is initialized but not used"
+    },
+    {
+      "id": "AA0470",
+      "action": "None",
+      "justification": "Disable warning Label with placeholders should have a comment explaining their content."
+    },
+    {
+      "id": "AA0215",
+      "action": "Hidden",
+      "justification": "Disable warning of file pattern names"
+    }  ]
+}

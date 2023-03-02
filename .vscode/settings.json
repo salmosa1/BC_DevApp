@@ -1,0 +1,24 @@
+{
+    "CRS.ObjectNameSuffix": " DVF",
+    "CRS.AlSubFolderName": "src",
+    "CRS.OnSaveAlFileAction": "Reorganize",
+    "CRS.ExtensionObjectNamePattern": "",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "files.defaultLanguage": "al",
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${PerTenantExtensionCop}"
+    ],
+    "al.ruleSetPath": "./.vscode/ruleSet.json",
+    "al.enableCodeActions": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.al": true
+    },
+    "alOutline.codeActionsOnSave": [
+        "SortProperties",
+        "SortVariables"
+    ]
+}

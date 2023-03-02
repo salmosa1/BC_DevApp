@@ -1,0 +1,34 @@
+{
+  "id": "d8bdce72-c290-4ad6-af39-bcf6d99f6975",
+  "name": "BC_DevApp",
+  "publisher": "salmosa",
+  "version": "21.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 99850,
+      "to": 99899
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "8.0",
+  "target": "Cloud",
+  "features": [
+    "TranslationFile",
+    "GenerateCaptions"
+  ]  
+}

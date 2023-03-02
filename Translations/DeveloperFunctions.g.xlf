@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="DeveloperFunctions">
+    <body>
+      <group id="body">
+        <trans-unit id="PageExtension 155242327 - Action 3544984734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Advanced Options</source>
+          <note from="Developer" annotates="general" priority="2">Opciones avanzadas</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackSubf DVF - Action Advanced DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 155242327 - Action 4025920291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Database</source>
+          <note from="Developer" annotates="general" priority="2">BBDD</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackSubf DVF - Action Database DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 155242327 - Action 786542912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Datos de base de datos (Tabla)</source>
+          <note from="Developer" annotates="general" priority="2">Datos de base de datos (Tabla)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackSubf DVF - Action AdvDatabaseRecords DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 155242327 - Action 991082623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Delete Data</source>
+          <note from="Developer" annotates="general" priority="2">Eliminar datos</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackSubf DVF - Action DeleteData DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 155242327 - Action 991082623 - Method 1377591017 - NamedType 688848490" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 155242327">
+          <source>There are no filters in table %1, all data will be deleted, continue?</source>
+          <note from="Developer" annotates="general" priority="2">No se han aplicado filtros en la tabla %1, se eliminarán todos los datos, ¿continuar?</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackSubf DVF - Action DeleteData DVF - Method OnAction - NamedType DeleteAllQst</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 155242327 - Action 991082623 - Method 1377591017 - NamedType 2854266135" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 155242327">
+          <source>Data deleted</source>
+          <note from="Developer" annotates="general" priority="2">Datos eliminados</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackSubf DVF - Action DeleteData DVF - Method OnAction - NamedType okMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 155242327 - Action 991082623 - Method 1377591017 - NamedType 1442422593" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 155242327">
+          <source>Delete(True),Delete(False)</source>
+          <note from="Developer" annotates="general" priority="2">Delete(True),Delete(False)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackSubf DVF - Action DeleteData DVF - Method OnAction - NamedType RunTriggerQst</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 155242327 - Action 3230847453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Excel DVF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackSubf DVF - Action Excel DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 155242327 - Action 2690229962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Package</source>
+          <note from="Developer" annotates="general" priority="2">Paquete</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackSubf DVF - Action Package DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 155242327 - Action 205224977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Delete Package Data</source>
+          <note from="Developer" annotates="general" priority="2">Eliminar datos de paquete</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackSubf DVF - Action DeletePackageData DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 155242327 - Action 152423757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>View All Errors</source>
+          <note from="Developer" annotates="general" priority="2">Ver todos los errores</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackSubf DVF - Action ViewAllErrors DVF - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

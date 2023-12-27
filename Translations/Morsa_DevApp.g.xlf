@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="Morsa_DevApp">
+    <body>
+      <group id="body">
+        <trans-unit id="PageExtension 2954655490 - Action 3544984734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Advanced Options</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Opciones avanzadas"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackageSubform DVF - Action Advanced DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2954655490 - Action 4025920291 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Database</source>
+          <note from="Developer" annotates="general" priority="2">ESP="BBDD"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackageSubform DVF - Action Database DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2954655490 - Action 786542912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Open Table</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Abrir tabla"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackageSubform DVF - Action AdvDatabaseRecords DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2954655490 - Action 991082623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Delete Data</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Eliminar datos"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackageSubform DVF - Action DeleteData DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2954655490 - Action 991082623 - Method 1377591017 - NamedType 688848490" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2954655490">
+          <source>There are no filters in table %1, all data will be deleted, continue?</source>
+          <note from="Developer" annotates="general" priority="2">ESP="No se han aplicado filtros en la tabla %1, se eliminarán todos los datos, ¿continuar?"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackageSubform DVF - Action DeleteData DVF - Method OnAction - NamedType DeleteAllQst</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2954655490 - Action 991082623 - Method 1377591017 - NamedType 2854266135" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2954655490">
+          <source>Data deleted</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Datos eliminados"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackageSubform DVF - Action DeleteData DVF - Method OnAction - NamedType okMsg</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2954655490 - Action 991082623 - Method 1377591017 - NamedType 1442422593" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2954655490">
+          <source>Delete(True),Delete(False)</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Delete(True),Delete(False)"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackageSubform DVF - Action DeleteData DVF - Method OnAction - NamedType RunTriggerQst</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2954655490 - Action 2690229962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Package</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Paquete"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackageSubform DVF - Action Package DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2954655490 - Action 205224977 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>Delete Package Data</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Eliminar datos de paquete"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackageSubform DVF - Action DeletePackageData DVF - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2954655490 - Action 152423757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526054960">
+          <source>View All Errors</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Ver todos los errores"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ConfigPackageSubform DVF - Action ViewAllErrors DVF - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

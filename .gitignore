@@ -1,5 +1,6 @@
-.alpackages
-.vscode/launch.json
-.vscode/rad.json
 *.app
+.alpackages
+.snapshots
+.vscode/rad.json
 .vscode/.alcache
+.vscode/launch.json

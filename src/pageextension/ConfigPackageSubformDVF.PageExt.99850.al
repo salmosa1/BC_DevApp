@@ -1,4 +1,4 @@
-pageextension 99850 "ConfigPackSubf DVF" extends "Config. Package Subform"
+pageextension 99850 "ConfigPackageSubform DVF" extends "Config. Package Subform"
 {
     actions
     {
@@ -6,18 +6,15 @@ pageextension 99850 "ConfigPackSubf DVF" extends "Config. Package Subform"
         {
             group("Advanced DVF")
             {
-                Caption = 'Advanced Options', Comment = 'Opciones avanzadas';
-                group("Excel DVF")
-                {
+                Caption = 'Advanced Options', Comment = 'ESP="Opciones avanzadas"';
 
-                }
                 group("Package DVF")
                 {
-                    Caption = 'Package', Comment = 'Paquete';
+                    Caption = 'Package', Comment = 'ESP="Paquete"';
                     action("ViewAllErrors DVF")
                     {
                         ApplicationArea = All;
-                        Caption = 'View All Errors', Comment = 'Ver todos los errores';
+                        Caption = 'View All Errors', Comment = 'ESP="Ver todos los errores"';
                         Image = ErrorLog;
 
                         trigger OnAction();
@@ -35,7 +32,7 @@ pageextension 99850 "ConfigPackSubf DVF" extends "Config. Package Subform"
                     action("DeletePackageData DVF")
                     {
                         ApplicationArea = All;
-                        Caption = 'Delete Package Data', Comment = 'Eliminar datos de paquete';
+                        Caption = 'Delete Package Data', Comment = 'ESP="Eliminar datos de paquete"';
                         Image = Delete;
 
                         trigger OnAction();
@@ -44,7 +41,7 @@ pageextension 99850 "ConfigPackSubf DVF" extends "Config. Package Subform"
                             confPackTab: Record "Config. Package Table";
                         begin
                             CurrPage.SetSelectionFilter(confPackTab);
-                            if confPackTab.FindSet(false, false) then
+                            if confPackTab.FindSet(false) then
                                 repeat
                                     confPackRec.Reset();
                                     confPackRec.SetRange("Package Code", confPackTab."Package Code");
@@ -56,11 +53,11 @@ pageextension 99850 "ConfigPackSubf DVF" extends "Config. Package Subform"
                 }
                 group("Database DVF")
                 {
-                    Caption = 'Database', Comment = 'BBDD';
+                    Caption = 'Database', Comment = 'ESP="BBDD"';
                     action("AdvDatabaseRecords DVF")
                     {
                         ApplicationArea = All;
-                        Caption = 'Datos de base de datos (Tabla)', Comment = 'Datos de base de datos (Tabla)';
+                        Caption = 'Open Table', Comment = 'ESP="Abrir tabla"';
                         Image = Database;
 
                         trigger OnAction();
@@ -72,7 +69,7 @@ pageextension 99850 "ConfigPackSubf DVF" extends "Config. Package Subform"
                     action("DeleteData DVF")
                     {
                         ApplicationArea = All;
-                        Caption = 'Delete Data', Comment = 'Eliminar datos';
+                        Caption = 'Delete Data', Comment = 'ESP="Eliminar datos"';
                         Image = Delete;
 
                         trigger OnAction();
@@ -83,9 +80,9 @@ pageextension 99850 "ConfigPackSubf DVF" extends "Config. Package Subform"
                             fRef: FieldRef;
                             RunTrigger: Boolean;
                             Selection: Integer;
-                            DeleteAllQst: Label 'There are no filters in table %1, all data will be deleted, continue?', Comment = 'No se han aplicado filtros en la tabla %1, se eliminarán todos los datos, ¿continuar?';
-                            okMsg: Label 'Data deleted', Comment = 'Datos eliminados';
-                            RunTriggerQst: Label 'Delete(True),Delete(False)', Comment = 'Delete(True),Delete(False)';
+                            DeleteAllQst: Label 'There are no filters in table %1, all data will be deleted, continue?', Comment = 'ESP="No se han aplicado filtros en la tabla %1, se eliminarán todos los datos, ¿continuar?"';
+                            okMsg: Label 'Data deleted', Comment = 'ESP="Datos eliminados"';
+                            RunTriggerQst: Label 'Delete(True),Delete(False)', Comment = 'ESP="Delete(True),Delete(False)"';
                         begin
                             Selection := StrMenu(RunTriggerQst, 0);
                             if Selection = 0 then
@@ -100,7 +97,7 @@ pageextension 99850 "ConfigPackSubf DVF" extends "Config. Package Subform"
                                     confPackFilter.SetRange("Package Code", confPackTable."Package Code");
                                     confPackFilter.SetRange("Table ID", confPackTable."Table ID");
                                     confPackFilter.SetRange("Processing Rule No.", 0);
-                                    if confPackFilter.FindSet(false, false) then begin
+                                    if confPackFilter.FindSet(false) then begin
                                         repeat
                                             fRef := rRef.Field(confPackFilter."Field ID");
                                             fRef.SetFilter(confPackFilter."Field Filter");
@@ -119,11 +116,6 @@ pageextension 99850 "ConfigPackSubf DVF" extends "Config. Package Subform"
                 }
             }
         }
-        moveafter("Excel DVF"; "E&xcel")
-        movefirst("Package DVF"; PackageFields)
-        moveafter(PackageFields; PackageFilters)
-        moveafter("ViewAllErrors DVF"; PackageRecords)
-        movelast("Advanced DVF"; ApplyData)
     }
 
     procedure GetTableUrl(TableNo: Integer): Text
